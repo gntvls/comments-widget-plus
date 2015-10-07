@@ -55,7 +55,7 @@ class Comments_Widget_Plus_Widget extends WP_Widget {
 		if ( ! current_theme_supports( 'widgets' ) || ! apply_filters( 'cwp_use_default_style', true, $this->id_base ) )
 			return;
 		?>
-			<style type="text/css">.cwp-li {overflow: hidden;}.cwp-avatar {float: left;margin-top: .2em;margin-right: 1em;}.cwp-comment-excerpt {display: block;}</style>
+			<style type="text/css">.cwp-li {overflow: hidden;}.cwp-avatar {float: left;margin-top: .2em;margin-right: 1em;}.cwp-comment-excerpt {display: block;color:#787878;}</style>
 		<?php
 	}
 

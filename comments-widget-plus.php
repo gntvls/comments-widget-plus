@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name:  Comments Widget Plus
- * Plugin URI:   https://themephe.com/items/comments-widget-plus/
+ * Plugin URI:   https://wordpress.org/plugins/comments-widget-plus/
  * Description:  Enables custom recent comments widget with extra features.
- * Version:      1.0.0
- * Author:       ThemePhe
- * Author URI:   https://themephe.com/
- * Author Email: satrya@themephe.com
+ * Version:      1.0.1
+ * Author:       Theme Junkie
+ * Author URI:   http://www.theme-junkie.com/
+ * Author Email: support@theme-junkie.com
  * Text Domain:  comments-widget-plus
  * Domain Path:  /languages
  * License:      GPL 2.0

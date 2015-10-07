@@ -1,9 +1,9 @@
 === Comments Widget Plus ===
-Contributors: satrya, themephe
+Contributors: themejunkie, satrya
 Tags: recent comments, widget, recent comments widget, excerpt, avatar
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,12 +26,11 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 
 = Support =
 
-* [Forum support](http://wordpress.org/support/plugin/comments-widget-plus).
-* [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/comments-widget-plus).
-* [Submit translation](https://github.com/themephe/comments-widget-plus/issues).
-* [Contribute on Github](https://github.com/themephe/comments-widget-plus/)
+* [Forum support](http://wordpress.org/support/plugin/comments-widget-plus)
+* [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/comments-widget-plus)
+* [Contribute on Github](https://github.com/themejunkie/comments-widget-plus)
 
-> Developed by [ThemePhe](https://themephe.com/) in Indonesia
+> Developed by [Theme Junkie](http://www.theme-junkie.com/)
 
 == Installation ==
 
@@ -64,12 +63,17 @@ add_filter( 'cwp_use_default_style', '__return_false' );
 
 == Screenshots ==
 
-1. General settings
-2. Comments settings
-3. Avatar settings
-4. Excerpt settings
+1. Widgets output
+2. General settings
+3. Comments settings
+4. Avatar settings
+5. Excerpt settings
 
 == Changelog ==
 
-= 1.0.0 - Sept 20, 2015 = 
+= 1.0.1 - Oct 7, 2015 =
+- Added default color to the comment excerpt
+- Added class `cwp-on-text` to the On text
+
+= 1.0.0 - Sept 20, 2015 =
 - Initial release

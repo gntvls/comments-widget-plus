@@ -65,9 +65,11 @@ function cwp_get_recent_comments( $args = array() ) {
 					endif;
 
 					$html .= '<span class="cwp-comment-title">';
-						/* translators: comments widget: 1: comment author, 2: post link */
-						$html .= sprintf( _x( '%1$s on %2$s', 'widgets', 'comments-widget-plus' ),
+						/* translators: comments widget: 1: comment author, 4: post link */
+						$html .= sprintf( _x( '%1$s %2$son%3$s %4$s', 'widgets', 'comments-widget-plus' ),
 							'<span class="comment-author-link cwp-author-link">' . get_comment_author_link( $comment->comment_ID ) . '</span>',
+							'<span class="cwp-on-text">',
+							'</span>',
 							'<a class="comment-link cwp-comment-link" href="' . esc_url( get_comment_link( $comment->comment_ID ) ) . '">' . get_the_title( $comment->comment_post_ID ) . '</a>'
 						);
 					$html .= '</span>';
@@ -98,7 +100,7 @@ function cwp_get_recent_comments( $args = array() ) {
 function cwp_get_comments( $args = array() ) {
 
 	// Arguments
-	$query = array( 
+	$query = array(
 		'number'      => $args['limit'],
 		'offset'      => $args['offset'],
 		'order'       => $args['order'],
