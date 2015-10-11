@@ -3,7 +3,7 @@ Contributors: themejunkie, satrya
 Tags: recent comments, widget, recent comments widget, excerpt, avatar
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,11 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 * Offset option.
 * Option to choose the comments order.
 * Multiple widgets.
+
+= Languages =
+
+* English
+* French
 
 = Support =
 
@@ -70,6 +75,13 @@ add_filter( 'cwp_use_default_style', '__return_false' );
 5. Excerpt settings
 
 == Changelog ==
+
+= 1.0.2 - Oct 11, 2015 =
+- Added French translation. Thanks [Adrien](https://github.com/Adrien-Luxey)
+- Added flexible per widget hook for developer
+- Updated language file
+- New features: Exclude pingback & trackback
+- New features: Avatar type, square / rounded
 
 = 1.0.1 - Oct 7, 2015 =
 - Added default color to the comment excerpt

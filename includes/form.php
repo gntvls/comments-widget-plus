@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 </script>
 
 <div class="cwp-form-tabs">
-	
+
 	<ul class="cwp-tabs">
 		<li><a href="#tab-1"><?php _e( 'General', 'comments-widget-plus' ); ?></a></li>
 		<li><a href="#tab-2"><?php _e( 'Comments', 'comments-widget-plus' ); ?></a></li>
@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	</ul>
 
 	<div class="cwp-tabs-content">
-		
+
 		<div id="tab-1" class="cwp-tab-content">
 			<p>
 				<label for="<?php echo $this->get_field_id( 'title' ); ?>">
@@ -49,7 +49,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 				</label>
 				<input class="widefat" id="<?php echo $this->get_field_id( 'title_url' ); ?>" name="<?php echo $this->get_field_name( 'title_url' ); ?>" type="text" value="<?php echo esc_url( $instance['title_url'] ); ?>" />
 			</p>
-			
+
 			<p>
 				<label for="<?php echo $this->get_field_id( 'css_class' ); ?>">
 					<?php _e( 'CSS Class', 'comments-widget-plus' ); ?>
@@ -60,7 +60,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		</div><!-- #tab-1 -->
 
 		<div id="tab-2" class="cwp-tab-content">
-			
+
 			<p>
 				<label for="<?php echo $this->get_field_id( 'post_type' ); ?>">
 					<?php _e( 'Post Type', 'comments-widget-plus' ); ?>
@@ -98,10 +98,17 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 				</select>
 			</p>
 
+			<p>
+				<input id="<?php echo $this->get_field_id( 'exclude_pings' ); ?>" name="<?php echo $this->get_field_name( 'exclude_pings' ); ?>" type="checkbox" <?php checked( $instance['exclude_pings'] ); ?> />
+				<label for="<?php echo $this->get_field_id( 'exclude_pings' ); ?>">
+					<?php _e( 'Exclude pingback and trackback', 'comments-widget-plus' ); ?>
+				</label>
+			</p>
+
 		</div><!-- #tab-2 -->
 
 		<div id="tab-3" class="cwp-tab-content">
-			
+
 			<p>
 				<input class="checkbox" type="checkbox" <?php checked( $instance['avatar'], 1 ); ?> id="<?php echo $this->get_field_id( 'avatar' ); ?>" name="<?php echo $this->get_field_name( 'avatar' ); ?>" />
 				<label for="<?php echo $this->get_field_id( 'avatar' ); ?>">
@@ -114,6 +121,16 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 					<?php _e( 'Avatar Size', 'comments-widget-plus' ); ?>
 				</label>
 				<input class="widefat" id="<?php echo $this->get_field_id( 'avatar_size' ); ?>" name="<?php echo $this->get_field_name( 'avatar_size' ); ?>" type="number" step="1" min="-1" value="<?php echo (int)( $instance['avatar_size'] ); ?>" />
+			</p>
+
+			<p>
+				<label for="<?php echo $this->get_field_id( 'avatar_type' ); ?>">
+					<?php _e( 'Avatar Type', 'comments-widget-plus' ); ?>
+				</label>
+				<select class="widefat" id="<?php echo $this->get_field_id( 'avatar_type' ); ?>" name="<?php echo $this->get_field_name( 'avatar_type' ); ?>" style="width:100%;">
+					<option value="rounded" <?php selected( $instance['avatar_type'], 'rounded' ); ?>><?php _e( 'Rounded', 'comments-widget-plus' ) ?></option>
+					<option value="square" <?php selected( $instance['avatar_type'], 'square' ); ?>><?php _e( 'Square', 'comments-widget-plus' ) ?></option>
+				</select>
 			</p>
 
 		</div><!-- #tab-3 -->

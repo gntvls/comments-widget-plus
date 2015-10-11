@@ -55,7 +55,7 @@ class Comments_Widget_Plus_Widget extends WP_Widget {
 		if ( ! current_theme_supports( 'widgets' ) || ! apply_filters( 'cwp_use_default_style', true, $this->id_base ) )
 			return;
 		?>
-			<style type="text/css">.cwp-li {overflow: hidden;}.cwp-avatar {float: left;margin-top: .2em;margin-right: 1em;}.cwp-comment-excerpt {display: block;color:#787878;}</style>
+			<style type="text/css">.cwp-li {overflow: hidden;}.cwp-avatar {float: left;margin-top: .2em;margin-right: 1em;}.cwp-avatar.rounded .avatar{border-radius:50%;}.cwp-avatar.square .avatar{border-radius:0;}.cwp-comment-excerpt {display: block;color:#787878;}</style>
 		<?php
 	}
 
@@ -91,7 +91,7 @@ class Comments_Widget_Plus_Widget extends WP_Widget {
 		}
 
 		// Get the recent comments.
-		$comments = cwp_get_recent_comments( $instance );
+		$comments = cwp_get_recent_comments( $instance, $this->id );
 
 		// Check if comments exist
 		if ( $comments ) {
@@ -135,8 +135,10 @@ class Comments_Widget_Plus_Widget extends WP_Widget {
 		$instance['offset']        = (int)( $new_instance['offset'] );
 		$instance['order']         = esc_attr( $new_instance['order'] );
 		$instance['post_type']     = esc_attr( $new_instance['post_type'] );
+		$instance['exclude_pings'] = isset( $new_instance['exclude_pings'] ) ? (bool) $new_instance['exclude_pings'] : 0;
 		$instance['avatar']        = isset( $new_instance['avatar'] ) ? (bool) $new_instance['avatar'] : 0;
 		$instance['avatar_size']   = (int)( $new_instance['avatar_size'] );
+		$instance['avatar_type']   = esc_attr( $new_instance['avatar_type'] );
 		$instance['excerpt']       = isset( $new_instance['excerpt'] ) ? (bool) $new_instance['excerpt'] : false;
 		$instance['excerpt_limit'] = (int)( $new_instance['excerpt_limit'] );
 		$instance['css_class']     = sanitize_html_class( $new_instance['css_class'] );
