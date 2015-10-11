@@ -17,11 +17,12 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 
 * Display avatar with customizable size.
 * Display comment excerpt with customizable length.
-* Allows you to set title url.
-* Custom CSS class.
+* Exclude pingback & trackback
 * Post type option.
 * Offset option.
 * Option to choose the comments order.
+* Allows you to set title url.
+* Custom CSS class.
 * Multiple widgets.
 
 = Languages =
