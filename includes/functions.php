@@ -62,7 +62,7 @@ function cwp_get_recent_comments( $args, $id ) {
 
 					if ( $args['avatar'] ) :
 						$html .= '<a class="comment-link cwp-comment-link" href="' . esc_url( get_comment_link( $comment->comment_ID ) ) . '">';
-							$html .= '<span class="comment-avatar cwp-avatar ' . $args['avatar_type'] . '">' . get_avatar( $comment->comment_author_email, $args['avatar_size'] ) . '</span>';
+							$html .= '<span class="comment-avatar cwp-avatar ' . sanitize_html_class( $args['avatar_type'] ) . '">' . get_avatar( $comment->comment_author_email, $args['avatar_size'] ) . '</span>';
 						$html .= '</a>';
 					endif;
 
@@ -77,7 +77,7 @@ function cwp_get_recent_comments( $args, $id ) {
 					$html .= '</span>';
 
 					if ( $args['excerpt'] ) :
-						$html .= '<span class="comment-excerpt cwp-comment-excerpt">' . wp_html_excerpt( $comment->comment_content, $args['excerpt_limit'], '&hellip;' ) . '</span>';
+						$html .= '<span class="comment-excerpt cwp-comment-excerpt">' . wp_html_excerpt( $comment->comment_content, absint( $args['excerpt_limit'] ), '&hellip;' ) . '</span>';
 					endif;
 
 				$html .= '</li>';

@@ -3,7 +3,7 @@
  * Plugin Name:  Comments Widget Plus
  * Plugin URI:   https://wordpress.org/plugins/comments-widget-plus/
  * Description:  Enables custom recent comments widget with extra features.
- * Version:      1.0.2
+ * Version:      1.0.3
  * Author:       Theme Junkie
  * Author URI:   http://www.theme-junkie.com/
  * Author Email: support@theme-junkie.com

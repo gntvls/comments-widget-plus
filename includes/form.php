@@ -8,19 +8,25 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 
 <script>
-	jQuery(document).ready(function($) {
-		// Initialize the tabs
-		$( ".cwp-form-tabs" ).tabs({
-			active   : $.cookie('activetab'),
+	jQuery( document ).ready( function( $ ) {
+
+		// Cache selector in a variable
+		// to improve speed.
+		var $tabs = $( ".cwp-form-tabs" );
+
+		// Initialize the jQuery UI tabs
+		$tabs.tabs({
+			active   : $.cookie( "activetab" ),
 			activate : function( event, ui ){
-				$.cookie( 'activetab', ui.newTab.index(),{
+				$.cookie( "activetab", ui.newTab.index(),{
 					expires : 10
 				});
 			}
 		}).addClass( "ui-tabs-vertical" );
 
 		// Add custom class
-		$('.cwp-form-tabs').closest( ".widget-inside" ).addClass( "cwp-bg" );
+		$tabs.closest( ".widget-inside" ).addClass( "cwp-bg" );
+
 	});
 </script>
 

@@ -3,7 +3,7 @@ Contributors: themejunkie, satrya
 Tags: recent comments, widget, recent comments widget, excerpt, avatar
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 * English
 * French
 
-= Support =
+= Useful Links =
 
 * [Forum support](http://wordpress.org/support/plugin/comments-widget-plus)
 * [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/comments-widget-plus)
@@ -76,6 +76,11 @@ add_filter( 'cwp_use_default_style', '__return_false' );
 5. Excerpt settings
 
 == Changelog ==
+
+= 1.0.3 - Nov 06, 2015 =
+- Improve the jQuery tabs performance
+- Better security, sanitize all outputs
+- Updated language file
 
 = 1.0.2 - Oct 11, 2015 =
 - Added French translation. Thanks [Adrien](https://github.com/Adrien-Luxey)
