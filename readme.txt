@@ -2,8 +2,8 @@
 Contributors: themejunkie, satrya
 Tags: recent comments, widget, recent comments widget, excerpt, avatar
 Requires at least: 4.0
-Tested up to: 4.3.1
-Stable tag: 1.0.3
+Tested up to: 4.4
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,7 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 
 * English
 * French
+* German
 
 = Useful Links =
 
@@ -36,7 +37,7 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 * [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/comments-widget-plus)
 * [Contribute on Github](https://github.com/themejunkie/comments-widget-plus)
 
-> Developed by [Theme Junkie](http://www.theme-junkie.com/)
+> Developed by [Theme Junkie](https://www.theme-junkie.com/plugins/comments-widget-plus/)
 
 == Installation ==
 
@@ -76,6 +77,10 @@ add_filter( 'cwp_use_default_style', '__return_false' );
 5. Excerpt settings
 
 == Changelog ==
+
+= 1.0.4 - Dec 19, 2015 =
+* Support WordPress 4.4
+* Added German translation
 
 = 1.0.3 - Nov 06, 2015 =
 - Improve the jQuery tabs performance

@@ -7,25 +7,25 @@
 }
 
 .cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav {
-	padding: 1em 0; 
-	float: left; 
+	float: left;
 	width: 8em;
+	padding: 1em 0;
 }
 
-.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li { 
-	clear: left; 
-	width: 100%; 
+.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
 	margin-bottom: 0;
 	padding: .8em 0 .8em 1em;
 }
 
 .cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-state-focus {
-	box-shadow: none;
 	outline: none;
+	box-shadow: none;
 }
 
-.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li a { 
-	display:block;
+.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
 	text-decoration: none;
 }
 
@@ -33,17 +33,17 @@
 	box-shadow: none;
 }
 
-.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+.cwp-form-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
 	background-color: #fff;
 }
 
 .cwp-form-tabs.ui-tabs-vertical .cwp-tabs-content {
-	background-color: #fff;
 	overflow: hidden;
+	min-height: 12em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	min-height: 12em;
 	padding: 1em 1.5em 1em 1.5em;
+	background-color: #fff;
 }
 
 .cwp-tab-content p {
@@ -51,6 +51,6 @@
 }
 
 .cwp-tab-content p small {
-	color: #777;
 	font-style: italic;
+	color: #777;
 }
