@@ -1,9 +1,9 @@
 === Comments Widget Plus ===
 Contributors: themejunkie, satrya
-Tags: recent comments, widget, recent comments widget, excerpt, avatar
+Tags: recent comments, widget, recent comments widget, excerpt, avatar, sidebar, comments, pingback, trackback
 Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 1.0.4
+Tested up to: 4.8.2
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,8 @@ Provides custom recent comments widget with extra features such as display avata
 == Description ==
 
 This plugin will enable a custom and advanced recent comments widget. Allows you to display a list of the most recent comments with avatar and excerpt, you can also choose which to show newer comments first or older comments first and choose comments from any post type.
+
+Please take a look the plugin page for more details: [https://www.theme-junkie.com/plugins/comments-widget-plus/](https://www.theme-junkie.com/plugins/comments-widget-plus/)
 
 = Features Include =
 
@@ -31,13 +33,9 @@ This plugin will enable a custom and advanced recent comments widget. Allows you
 * French
 * German
 
-= Useful Links =
+= Contribute =
 
-* [Forum support](http://wordpress.org/support/plugin/comments-widget-plus)
-* [Rate/Review the plugin](http://wordpress.org/support/view/plugin-reviews/comments-widget-plus)
-* [Contribute on Github](https://github.com/themejunkie/comments-widget-plus)
-
-> Developed by [Theme Junkie](https://www.theme-junkie.com/plugins/comments-widget-plus/)
+If you want to contribute, we hosted the plugin on github: [https://github.com/themejunkie/comments-widget-plus](https://github.com/themejunkie/comments-widget-plus)
 
 == Installation ==
 
@@ -77,6 +75,12 @@ add_filter( 'cwp_use_default_style', '__return_false' );
 5. Excerpt settings
 
 == Changelog ==
+
+= 1.0.6 - Oct 19, 2017 =
+* Support WordPress 4.8.2
+
+= 1.0.5 - Sept 11, 2016 =
+* Support WordPress 4.6.1
 
 = 1.0.4 - Dec 19, 2015 =
 * Support WordPress 4.4
