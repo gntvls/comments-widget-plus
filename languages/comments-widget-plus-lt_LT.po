@@ -1,0 +1,155 @@
+# Copyright (C) 2017 Theme Junkie
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Comments Widget Plus 1.0.6\n"
+"Report-Msgid-Bugs-To: https://www.theme-junkie.com/contact/\n"
+"POT-Creation-Date: 2017-10-19 06:29:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-04-01 15:53+0000\n"
+"Last-Translator: F1news.lt <info@f1news.lt>\n"
+"Language-Team: Lithuanian\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+"Language: lt_LT"
+
+#: includes/form.php:36
+msgid "General"
+msgstr "Pagrindiniai"
+
+#: includes/form.php:37
+msgid "Comments"
+msgstr "Komentarai"
+
+#: includes/form.php:38
+msgid "Avatar"
+msgstr "Avataras"
+
+#: includes/form.php:39
+msgid "Excerpt"
+msgstr "Ištrauka"
+
+#: includes/form.php:47
+msgid "Title"
+msgstr "Antraštė"
+
+#: includes/form.php:54
+msgid "Title URL"
+msgstr "Antraštės nuoroda"
+
+#: includes/form.php:61
+msgid "CSS Class"
+msgstr "CSS klasė"
+
+#: includes/form.php:72
+msgid "Post Type"
+msgstr "Įrašo tipas"
+
+#: includes/form.php:75
+msgid "All"
+msgstr "Visi"
+
+#: includes/form.php:84
+msgid "Number of comments to show"
+msgstr "Kiek komentarų rodyti (skaičius)"
+
+#: includes/form.php:91
+msgid "Offset"
+msgstr "Poslinkis"
+
+#: includes/form.php:94
+msgid "Number of comments to skip"
+msgstr "Kiek komentarų praleisti (skaičius)"
+
+#: includes/form.php:99
+msgid "Show"
+msgstr "Rodyti"
+
+#: includes/form.php:102
+msgid "Newer comments first"
+msgstr "Naujausi komentarai pirmiau"
+
+#: includes/form.php:103
+msgid "Older comments first"
+msgstr "Senesni komentarai pirmiau"
+
+#: includes/form.php:110
+msgid "Exclude pingback and trackback"
+msgstr "Neįtraukti pingback ir trackback"
+
+#: includes/form.php:121
+msgid "Display Avatar"
+msgstr "Rodyti avatarą"
+
+#: includes/form.php:127
+msgid "Avatar Size"
+msgstr "Avataro dydis"
+
+#: includes/form.php:134
+msgid "Avatar Type"
+msgstr "Avataro tipas"
+
+#: includes/form.php:137
+msgid "Rounded"
+msgstr "Apskritimas"
+
+#: includes/form.php:138
+msgid "Square"
+msgstr "Kvadratinis"
+
+#: includes/form.php:149
+msgid "Display Comment Excerpt"
+msgstr "Rodyti komentaro ištrauką"
+
+#: includes/form.php:155
+msgid "Excerpt Length"
+msgstr "Ištraukos ilgis"
+
+#: includes/functions.php:15
+msgid "Recent Comments"
+msgstr "Naujausi komentarai"
+
+#: includes/widget.php:19
+msgid "A custom recent comments widget with extra features."
+msgstr "Naujausių komentarų valdiklis su papildomomis funkcijomis."
+
+#: includes/widget.php:30
+msgid "Recent Comments Plus"
+msgstr "Naujausi komentarai Plius"
+
+#. Plugin Name of the plugin/theme
+msgid "Comments Widget Plus"
+msgstr "Komentarų Valdiklis Plius"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.theme-junkie.com/plugins/comments-widget-plus/"
+msgstr "https://www.theme-junkie.com/plugins/comments-widget-plus/"
+
+#. Description of the plugin/theme
+msgid "Enables custom recent comments widget with extra features."
+msgstr "Įgalina naujausių komentarų valdiklį su papildomomis funkcijomis."
+
+#. Author of the plugin/theme
+msgid "Theme Junkie"
+msgstr "Theme Junkie"
+
+#. Author URI of the plugin/theme
+msgid "https://www.theme-junkie.com/"
+msgstr "https://www.theme-junkie.com/"
+
+#. translators: comments widget: 1: comment author, 4: post link
+#: includes/functions.php:71
+msgctxt "widgets"
+msgid "%1$s %2$son%3$s %4$s"
+msgstr "%1$s %2$sapie%3$s %4$s"
